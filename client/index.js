@@ -3,9 +3,9 @@ import OktaSignIn from "@okta/okta-signin-widget";
 import "@okta/okta-signin-widget/dist/css/okta-sign-in.min.css";
 import "./site.css";
 
-/* const oktaOrgUrl = "https://dev-5795162.okta.com";
-const oktaClientId = "0oamj5ros1J4q72EI5d5";
- */
+const oktaOrgUrl = "https://dev-5795162.okta.com";
+const oktaClientId = "0oamj5ros1J4q72EI5d5"; 
+ 
 // helper function to update the results text
 const displayMessage = msg => {
   document.getElementById( "results" ).innerHTML = msg;
